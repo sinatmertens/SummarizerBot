@@ -28,6 +28,20 @@
 4. **Run the Bot**
    - python bot.py
 
+## Configuring Your Telegram Bot
+
+### Creating a Bot on Telegram:
+1. Use Telegram's BotFather to create a new bot. Send `/newbot` to BotFather and follow the instructions.
+2. Once the bot is created, you will receive a bot token.
+
+### Configuring the Bot Token:
+1. Replace `your_telegram_bot_token_here` in the `.env` file with the token provided by BotFather.
+
+
+## Heroku Hosting:
+- This bot is hosted on Heroku, a cloud platform that allows easy deployment and scaling. The included `Procfile` is used by Heroku to run the bot.
+
+
 ## Usage
 After adding the bot to a Telegram chat, send a voice message. The bot will reply with the message’s transcription and summary.
 
